@@ -1,8 +1,6 @@
 $(document).ready(function() {
  
-	// $(".bottom_button1").click(function() {
-	// 	$(".bottom_button1").hide("slow");
-	// });
+
 
 	$("#buttoneffects1").click(function() {
 		$("#par1").toggle("slow");
