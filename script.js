@@ -1,6 +1,4 @@
 $(document).ready(function() {
- 
-
 
 	$("#buttoneffects1").click(function() {
 		$("#par1").toggle("slow");
