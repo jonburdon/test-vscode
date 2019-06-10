@@ -1,7 +1,16 @@
 $(document).ready(function() {
+ 
 
 	$("#buttoneffects1").click(function() {
-		$("#par1").toggle("slow");
+		$("#par1").slideToggle("slow");
+	});
+
+	$("#buttoneffects2").mouseenter(function() {
+		$("#par2").fadeTo("slow", 0.5);
+	});
+
+	$("#buttoneffects2").mouseleave(function() {
+		$("#par2").fadeTo("slow", 1.0);
 	});
 
  	$("#stream1_btn").click(function() {
