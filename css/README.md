@@ -1,0 +1,1 @@
+# Test project to work with VSCode
