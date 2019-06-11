@@ -45,5 +45,9 @@ $(document).ready(function() {
 	$("img").click(function() {
 		$("p").show();
 	});
+	$("p").click(function () { 
+		$(this).children("a").addClass('highlight');
+	
+});
 
 }); 
